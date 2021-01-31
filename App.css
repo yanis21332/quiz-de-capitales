@@ -1,0 +1,78 @@
+body{
+  background-image: url(./resources/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.Question{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 50px 30px 0px;
+  color: #2F527B;
+}
+.title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: uppercase;
+
+  color: #F2F2F2;
+}
+.card{
+  width: 100%;
+  max-width: 464px;
+  height: 100%;
+  max-height: 505px;
+  margin: auto;
+  background-color: white;
+  border-radius: 24px;
+}
+.FirstZoneOfCard{
+  display: flex;
+  position: relative;
+  top: 50px;
+  margin: auto;
+  width: 100%;
+  max-width: 464px;
+}
+.FirstZoneOfCard img{
+  margin-left: 35px;
+}
+.answer{
+  display: flex;
+  padding-left: 20px;
+  background: #FFFFFF;
+  border: 2px solid rgba(96, 102, 208, 0.7);
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 400px;
+  height: 56px;
+  align-items: center;
+  margin-bottom: 31px;
+  color: rgba(96, 102, 208, 0.8);;
+  transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.answer:hover{
+  background-color: #F9A826;
+  border-color: #F9A826;
+  cursor: pointer;
+  color: white;
+}
+.answers{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.bloc4{
+  margin-bottom: 100%;
+}
+.ennumeration{
+  margin-right: 47px;
+}
+*{
+  font-family: poppins;
+}
